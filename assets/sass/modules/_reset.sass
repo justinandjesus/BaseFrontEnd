@@ -1,0 +1,25 @@
+%common-message
+  font-size: 8rem
+  font-weight: 900
+  font-style: italic
+
+body
+  // background: black
+  // display: flex
+
+  h1
+    color: $primaryColor
+    text-align: center
+
+
+.success-message
+  @extend %common-message
+  color: green
+  display: grid
+.danger-message
+  @extend %common-message
+  color: red
+  transform: scale3d(0,0,0)
+.continue-message
+  @extend %common-message
+  color: yellow

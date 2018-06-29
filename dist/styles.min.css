@@ -1,1 +1,26 @@
-body{background:white;padding:0px;margin:0}body h1{color:green}
+* {
+  padding: 50px;
+  margin: 0;
+  color: #2b2b2b;
+  font-size: 18px; }
+
+.success-message, .danger-message, .continue-message {
+  font-size: 8rem;
+  font-weight: 900;
+  font-style: italic; }
+
+body h1 {
+  color: #2b2b2b;
+  text-align: center; }
+
+.success-message {
+  color: green;
+  display: grid; }
+
+.danger-message {
+  color: red;
+  -webkit-transform: scale3d(0, 0, 0);
+          transform: scale3d(0, 0, 0); }
+
+.continue-message {
+  color: yellow; }
